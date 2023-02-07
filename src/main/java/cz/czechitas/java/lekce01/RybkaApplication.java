@@ -29,7 +29,7 @@ public class RybkaApplication extends CzechitasGameApplication {
     @Override
     protected void onStart() {
         kamen = new Kamen(200, 200);
-        rybka = new Rybka(100, 100);
+        rybka = new Rybka(100, 500);
     }
 
     public static void main(String[] args) {
